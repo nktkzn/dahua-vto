@@ -1,0 +1,38 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+build/
+dist/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-wheel-metadata/
+htmlcov/
+.coverage*
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+credentials.txt
+session.txt
+examples/python/credentials.txt
+examples/python/session.txt
